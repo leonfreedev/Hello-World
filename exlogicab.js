@@ -6,9 +6,6 @@ const recomendacoes =  {
     shrek: "Recomendamos o filme Shrek",
     reiLeao: "Recomendamos o filme Rei Leão"
 };
-
-//
-
 switch (true) {
     case (idade < 5):
         console.log(recomendacoes.carros);
@@ -79,23 +76,17 @@ let anos = 16
 
 //
 
-  let farol = 1
-  let farol2 = 2
-    let farol3 = 3
+  let farol = 2
 
     switch (true){
-        case ( farol === 1)
-        console.log (!"pare");
-        break;
-    }
-     switch (true){
-        case (farol2 === 2)
-        console.log ("atenção")
-        break;
+        case ( farol === 1):
+         console.log (!"pare");
+            break;
+        case (farol === 2):
+         console.log ("atenção");
+            break;
+        case (farol === 3):
+         console.log ("ande");
+            break;
+         default:
      }
-     switch (True){
-        case (farol3 === 3)
-        console.log ("ande")
-        break;
-             }
-             default; 
